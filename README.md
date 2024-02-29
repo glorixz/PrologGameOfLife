@@ -13,8 +13,6 @@ List of modes:
 - default
 - immigration
 
-You can toggle the state of any square in the gameboard by clicking on the square you want to change.
-
 If encountering error after starting swipl on windows,
 "ERROR: source_sink `library(pce)' does not exist"
 run the following in the interactive terminal:
@@ -26,6 +24,12 @@ assertz(file_search_path(pce,swi(xpce))).
 For best results, use ```swipl-win``` instead of ```swipl```
 
 For debugging purposes, run ```set_prolog_flag(answer_write_options,[max_depth(0)]).``` to remove limit on console output from swipl.
+
+## How to play
+You can toggle the state of any square in the gameboard by clicking on the square you want to change. Speed up the process by choosing a starting map, such as Pulsar.
+
+Once you're satisfied, set the game in motion by pressing the Step button. You can increase the number of steps that happen in succession by moving the slider.
+
 
 ## Default mode
 ![Alt](/img/pulsar-demo.jpg "Default mode")
